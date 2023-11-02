@@ -1,16 +1,25 @@
 [
     {
         "language": "java",
-        "LTS_Version": "",
-        "Latest_Version": "",
+        "LTS_Version": "17",
+        "Latest_Version": "18",
         "Versions": [
+            
+            {
+                "Version": "8",
+                "Dockerfile_Path": "/java/base/8/Dockerfile"
+            },
             {
                 "Version": "11",
                 "Dockerfile_Path": "/java/base/11/Dockerfile"
             },
             {
-                "Version": "8",
-                "Dockerfile_Path": "/java/base/8/Dockerfile"
+                "Version": "17",
+                "Dockerfile_Path": "/java/base/17/Dockerfile"
+            },
+            {
+                "Version": "18",
+                "Dockerfile_Path": "/java/base/18/Dockerfile"
             }
         ],
         "Frameworks": [
