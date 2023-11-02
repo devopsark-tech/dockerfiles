@@ -1,8 +1,8 @@
 [
     {
         "language": "java",
-        "LTS_Version": "",
-        "Latest_Version": "",
+        "LTS_Version": "17",
+        "Latest_Version": "18",
         "Versions": [
             
             {
