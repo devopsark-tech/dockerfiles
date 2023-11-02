@@ -21,11 +21,13 @@
                 "Older_Versions": [
                     {
                         "Version": "abc",
-                        "Dockerfile_Path": "/java/frameworks/springboot/abc/Dockerfile"
+                        "Dockerfile_Path": "/java/frameworks/springboot/abc/Dockerfile",
+                        "Compatible_Language_Versions" : ["11", "8"]
                     },
                     {
                         "Version": "xyz",
-                        "Dockerfile_Path": "/java/frameworks/springboot/xyz/Dockerfile"
+                        "Dockerfile_Path": "/java/frameworks/springboot/xyz/Dockerfile",
+                        "Compatible_Language_Versions" : ["8"]
                     }
                 ]
             }
