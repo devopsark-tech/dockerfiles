@@ -1,0 +1,34 @@
+[
+    {
+        "language": "java",
+        "LTS_Version": "",
+        "Latest_Version": "",
+        "Versions": [
+            {
+                "Version": "11",
+                "Dockerfile_Path": "/java/base/11/Dockerfile"
+            },
+            {
+                "Version": "8",
+                "Dockerfile_Path": "/java/base/8/Dockerfile"
+            }
+        ],
+        "Frameworks": [
+            {
+                "Name": "Springboot",
+                "Latest_Version": "xyz",
+                "LTS_Version": "xyz",
+                "Older_Versions": [
+                    {
+                        "Version": "abc",
+                        "Dockerfile_Path": "/java/frameworks/springboot/abc/Dockerfile"
+                    },
+                    {
+                        "Version": "xyz",
+                        "Dockerfile_Path": "/java/frameworks/springboot/xyz/Dockerfile"
+                    }
+                ]
+            }
+        ]
+    }
+]
